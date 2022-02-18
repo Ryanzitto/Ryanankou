@@ -1,0 +1,253 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+
+a{  
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo { max-width: 150px;
+    padding-top: 5px;
+    cursor: pointer;
+    margin-left: 140px;   
+}
+
+nav { display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #23232e;
+    height: 8vh;
+    border-bottom: 1px solid white;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;  
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+
+body {
+    background-image: url("/assets/img/fundo3.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y:  center;
+    background-color: #23232e;
+}
+
+
+.primeira-div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.primeira-sec  { 
+    display: flex;
+    background-color: #23232e;
+    height: 300px;
+    width: 1100px;
+    margin-top: 75px;
+    border-radius: 15px;
+    align-items: center;
+    background-image: url(/assets/img/Akali-chibi.png);
+    background-repeat: no-repeat;
+    background-position: 800px;
+    
+}
+
+.segunda-sec{
+    display: flex;
+    background-color: #23232e;
+    height: 300px;
+    width: 1100px;
+    margin-top: 75px;
+    border-radius: 15px;
+    align-items: center;
+    background-image: url(/assets/img/Lulu-chibi.png);
+    background-repeat: no-repeat;
+    background-position: 800px;
+
+}
+.akali-sobre{
+    display: flex;
+   flex-direction: column;
+   margin-bottom: 75px;
+}
+
+.akali{
+    display: flex;
+    max-height:200px;
+    margin-left: 50px;
+    
+}
+
+.nome-akali{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    
+}
+
+.nome-akali:hover{
+    opacity: 0.7;
+}
+
+.depoimento{
+    color: white;
+    width: 300px;
+    margin-left: 100px;
+    font-size: 25px;
+
+}
+
+.zeri-sobre{
+    display: flex;
+   flex-direction: column;
+}
+
+.zeri{
+    display: flex;
+    max-height:200px;
+    margin-left: 50px;
+    
+}
+
+.zeri-nome{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.zeri-nome:hover{
+    opacity: 0.7;
+}
+.depoimento2{
+    color: white;
+    width: 300px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+
+}
+
+.sub-nome{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+
+
+.foot {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.img-foot{
+    border-top: 1px solid white;
+}
+    
+.segunda-div{
+    display: flex;
+    justify-content: space-around;
+    padding: 75px;
+    background-color: #23232eb9;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 20px;
+    margin-top: 75px;
+    flex-direction: column;
+}
+
+.segundo-conteudo{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+
+}
+.imgs{
+    max-height: 150px;
+}
+
+
+.segundo-conteudo2{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Jhin-nome{
+    color: white;
+    margin-left: 40px;
+    margin-top: 15px;
+
+}
+.Ekko-nome{
+    color: white;
+    margin-left: 25px;
+    margin-top: 15px;
+
+}
+.Neeko-nome{
+    color: white;
+    margin-left: 18px;
+    margin-top: 15px;
+
+}
+.Swain-nome{
+    color: white;
+    margin-right: 35px;
+    margin-top: 15px;
+
+}
+
+.Jhin-nome:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.Ekko-nome:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.Neeko-nome:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.Swain-nome:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.também-jogo{
+    display: flex;
+    justify-content: center;
+   
+}
+.também-jogo-titulo{
+    color: white;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+}
+.também-jogo-titulo:hover{
+    opacity: 0.7;
+    
+}

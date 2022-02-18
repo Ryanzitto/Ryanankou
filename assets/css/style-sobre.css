@@ -1,0 +1,176 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+
+a{  
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo { max-width: 150px;
+    padding-top: 5px;
+    cursor: pointer;
+    margin-left: 140px;   
+}
+
+nav { display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #23232e;
+    height: 8vh;
+    border-bottom: 1px solid white;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;   
+    padding-top: 15px;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+    
+
+body {
+    background-color: #23232e;
+    background-image: url("/assets/img/fundo2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y:  center;
+    background-color: #23232e;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.conteudo-div{
+    padding-right: 45px;
+
+}
+
+.titulo{
+    font-size: 50px;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.titulo:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.texto{ color: white;
+    max-width: 600px;
+    font-size: 20px;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.conteudo2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 75px;
+}
+
+.kappa{
+    padding-top: 15px;
+    color: white;
+    margin-left: 130px;
+}
+
+.img-kappa{
+    max-height: 300px;
+}
+
+.brtt{
+    padding-top: 15px;
+    color: white;
+    margin-left: 140px;
+}
+
+.img-tt{
+    max-height: 350px;
+    margin-right: 30px;
+}
+
+.section-brtt{
+    padding-right: 75px;
+    padding-top: 45px ;
+}
+
+.img-faker{
+    max-height: 330px;
+    margin-right:30px ;
+    padding-bottom: 50px;
+}
+
+.segundo-conteudo{
+    display: flex;
+    justify-content: space-around;
+    padding: 75px;
+    background-color: #23232eb9;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 20px;
+}
+
+.text02{
+    width: 400px;
+    font-size: 30px;
+    color: white;
+}
+
+.botao-duo{ text-decoration: none;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(32, 34, 34);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+
+}
+
+.botao-duo:hover{
+    background-color: white;
+    color: black;
+   
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.img-foot{
+    border-top: 1px solid white;
+}
+
+#nick-modal{
+    margin-left: 12px;
+    margin-bottom: 20px;
+    
+}
+
