@@ -45,6 +45,7 @@ body {
     background-attachment: fixed;
     background-position-y:  center;
     background-color: #23232e;    
+    background-size: cover; 
 }
 
 main {
