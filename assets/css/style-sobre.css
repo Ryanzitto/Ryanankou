@@ -40,6 +40,7 @@ nav { display: flex;
 }
     
 
+
 body {
     background-color: #23232e;
     background-image: url("../img/fundo2.png");
@@ -47,6 +48,9 @@ body {
     background-attachment: fixed;
     background-position-y:  center;
     background-color: #23232e;
+    background-size: cover; 
+    
+    
 }
 
 .conteudo{
